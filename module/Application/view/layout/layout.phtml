@@ -39,7 +39,7 @@
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="<?= $this->url('home') ?>">Home</a></li>
-                        <li><a href="<?= $this->url('album') ?>">Stars</a></li>
+                        <li><a href="<?= $this->url('stars') ?>">Stars</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,7 +48,7 @@
             <?= $this->content ?>
             <hr>
             <footer>
-                <p>!&copy; <?= date('Y') ?> by Pedro Fernandes. No rights reserved.</p>
+                <p>Alegra Contacts Application - Pedro Fernandes, no rights reserved - <?= date('Y'); ?></p>
             </footer>
         </div>
         <?= $this->inlineScript() ?>
